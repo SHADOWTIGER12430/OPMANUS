@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--- 1. Title, Class -->
+    <title>John Doe | Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+        }
+        header, nav, main, section, footer {
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .project {
+            background: #eee;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!--- 2. Header and Navigation -->
+<header>
+    <h1>John Doe</h1>
+    <p>Web Developer | Designer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+<!--- 3. About Me -->
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m John Doe, a web developer with skills in HTML, CSS, JavaScript, and React.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS, JS</li>
+            <li>React</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+<!--- 4. Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Site</h3>
+            <p>A personal website built with HTML, CSS, and JS.</p>
+        </div>
+        <div class="project">
+            <h3>Task Manager</h3>
+            <p>A React app using Firebase for task tracking.</p>
+        </div>
+    </section>
+
+<!--- 5. Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" target="_blank">Download Resume</a></p>
+        <ul>
+            <li>Frontend Developer at XYZ (2022–Present)</li>
+            <li>Intern at ABC Tech (2021)</li>
+        </ul>
+    </section>
+
+<!--- 6. Contact Form -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:john@example.com">john@example.com</a></p>
+        <p>Phone: +1 234 567 890</p>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <br>
+            <input type="email" placeholder="Your Email" required><br>
+            <br>
+            <textarea rows="4" placeholder="Message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p> &copy; 2025 John Doe || All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
